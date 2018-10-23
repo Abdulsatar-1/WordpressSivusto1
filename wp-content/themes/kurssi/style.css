@@ -1,0 +1,122 @@
+/*
+Theme Name: Kurssi
+Theme URI: http://users.metropolia.fi
+Author: Nimi
+Author URI: https://metropolia.fi/
+Description: Teeman teon opiskelua
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blue
+Text Domain: Kurssi
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.wp-caption{
+    
+}
+.wp-caption-text{
+    
+}
+.sticky{
+    
+}
+.screen-reader-text{
+    
+}
+.gallery-caption{
+    
+}
+.bypostauthor{
+    
+}
+.alignright{
+    
+}
+.alignleft{
+    
+}
+.aligncenter{
+    
+}
+
+
+
+body, ul{
+	margin:0;
+	padding:0;
+	
+}
+
+body{/*k‰yet‰‰n fonttia koko sivun*/
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.tummansininen{/*headerin yl‰palkin tausta sek‰ kaikissa muissa, jossa k‰ytet‰‰n kyseist‰ luokkaa*/
+	background-color:rgb(44,62,80);
+}
+
+.sininen{/*hakunappin k‰ytt‰m‰ luokka*/
+	background-color:rgb(50,152,219);
+}
+
+.punainen{/*logon tausta*/
+	background-color:rgb(231,76,60);
+}
+
+.min-container{/*koko sivun palsta leveys*/
+	max-width:62.5em;
+	margin:auto;
+}
+
+.main-header{
+	width:100%;
+	float:left;/*pyrkii aina vasemmalle*/
+	height:40px;
+}
+
+.tunnus {
+	float:left;
+	width:12.5em;
+	height:40px;
+}
+
+.banner{
+	margin-bottom:1em;
+	float:left;
+	width:100%;
+}	
+
+
+.content-row{
+	float:left;
+	width:100%;
+}
+
+.search-block{
+	margin:0 1em 0 0;
+}
+.search-field{
+	border-radius: 10px 0 0 10px;
+	border:0;
+	height:26px;
+	padding:5px 10px;
+	display:block;
+	margin:7px 0;
+	float:left;
+	width:80%;
+	box-sizing:border-box;
+}
+.post p{
+		width:50%;
+		float:right;
+		padding-left:1em;
+		box-sizing:border-box;
+		margin-top:0;
+	}
+.post p:nth-of-type(1){
+		float:left;
+		padding:0;
+	}
